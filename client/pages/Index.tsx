@@ -157,7 +157,18 @@ export default function Index() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Content */}
             <div className="text-center lg:text-left fade-in">
-              <div className="inline-flex items-center gap-2 bg-snack-green/10 text-snack-green px-4 py-2 rounded-full text-sm font-semibold mb-6">
+              {/* Logo with frame */}
+              <div className="flex justify-center lg:justify-start mb-8">
+                <div className="bg-gray-100 p-6 rounded-2xl shadow-lg inline-block">
+                  <img
+                    src="https://cdn.builder.io/api/v1/image/assets%2F79b7dfd5cb0f4ca0b96e836c27c6ef40%2Fcd932fcd18414ba798762d622c2b825c?format=webp&width=800"
+                    alt="Nut Cravings Logo"
+                    className="h-24 w-auto"
+                  />
+                </div>
+              </div>
+
+              <div className="inline-flex items-center gap-2 bg-logo-green/10 text-logo-green px-4 py-2 rounded-full text-sm font-semibold mb-6">
                 <CheckCircle className="w-4 h-4" />
                 Premium Quality Guaranteed
               </div>
