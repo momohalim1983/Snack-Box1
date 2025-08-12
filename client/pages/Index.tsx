@@ -406,14 +406,14 @@ export default function Index() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
               <button
                 onClick={scrollToProducts}
-                className="bg-snack-green hover:bg-green-600 text-white font-bold px-12 py-4 rounded-2xl text-xl button-enhanced flex items-center justify-center gap-2"
+                className="bg-logo-green hover:bg-green-500 text-white font-bold px-12 py-4 rounded-2xl text-xl button-enhanced flex items-center justify-center gap-2"
               >
                 <ShoppingCart className="w-6 h-6" />
                 Order Now
               </button>
               <button
                 onClick={openFirstProductModal}
-                className="border-2 border-snack-green text-snack-green hover:bg-snack-green hover:text-white font-bold px-12 py-4 rounded-2xl text-xl transition-all duration-300"
+                className="border-2 border-logo-green text-logo-green hover:bg-logo-green hover:text-white font-bold px-12 py-4 rounded-2xl text-xl transition-all duration-300"
               >
                 View Products
               </button>
