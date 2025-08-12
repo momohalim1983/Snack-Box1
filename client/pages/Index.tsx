@@ -246,7 +246,7 @@ export default function Index() {
                   <div className="feature-icon mb-6">
                     <IconComponent className="w-7 h-7" />
                   </div>
-                  <h3 className="text-xl font-bold text-snack-dark-blue mb-4">
+                  <h3 className="text-xl font-bold text-heading-red mb-4">
                     {feature.title}
                   </h3>
                   <p className="text-gray-600 leading-relaxed">
@@ -295,7 +295,7 @@ export default function Index() {
                 </div>
 
                 <div className="p-8">
-                  <h3 className="text-xl font-bold text-snack-dark-blue mb-4 line-clamp-2 group-hover:text-snack-green transition-colors">
+                  <h3 className="text-xl font-bold text-heading-red mb-4 line-clamp-2 group-hover:text-logo-green transition-colors">
                     {product.name}
                   </h3>
                   <p className="text-gray-600 mb-6 line-clamp-3 leading-relaxed">
@@ -568,7 +568,7 @@ export default function Index() {
                   <div className="w-10 h-10 bg-snack-green rounded-full flex items-center justify-center">
                     <Package className="w-5 h-5 text-white" />
                   </div>
-                  <h3 className="text-2xl font-bold text-snack-dark-blue">
+                  <h3 className="text-2xl font-bold text-heading-red">
                     Product Details
                   </h3>
                 </div>
@@ -597,7 +597,7 @@ export default function Index() {
                 {/* Product Info */}
                 <div className="space-y-6">
                   <div>
-                    <h4 className="text-3xl font-bold text-snack-dark-blue mb-4 leading-tight">
+                    <h4 className="text-3xl font-bold text-heading-red mb-4 leading-tight">
                       {selectedProduct.name}
                     </h4>
 
@@ -612,8 +612,8 @@ export default function Index() {
                   </div>
 
                   <div className="bg-snack-light-gray/50 p-6 rounded-2xl">
-                    <h5 className="font-semibold text-snack-dark-blue mb-3 flex items-center gap-2">
-                      <Sparkles className="w-5 h-5 text-snack-green" />
+                    <h5 className="font-semibold text-heading-red mb-3 flex items-center gap-2">
+                      <Sparkles className="w-5 h-5 text-logo-green" />
                       Product Description
                     </h5>
                     <p className="text-gray-700 leading-relaxed text-lg">
@@ -623,8 +623,8 @@ export default function Index() {
 
                   {/* Features */}
                   <div className="space-y-3">
-                    <h5 className="font-semibold text-snack-dark-blue flex items-center gap-2">
-                      <CheckCircle className="w-5 h-5 text-snack-green" />
+                    <h5 className="font-semibold text-heading-red flex items-center gap-2">
+                      <CheckCircle className="w-5 h-5 text-logo-green" />
                       What's Included
                     </h5>
                     <div className="grid grid-cols-1 gap-2 text-sm text-gray-600">
