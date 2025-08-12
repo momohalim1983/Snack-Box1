@@ -588,7 +588,7 @@ export default function Index() {
         <div className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center p-4 z-50 fade-in">
           <div className="bg-white rounded-3xl max-w-4xl w-full max-h-[95vh] overflow-hidden shadow-2xl slide-up border border-logo-green/20">
             {/* Modal Header */}
-            <div className="bg-gradient-to-r from-snack-green/5 to-snack-green/10 p-6 border-b border-snack-green/20">
+            <div className="bg-gradient-to-r from-logo-green/5 to-logo-green/10 p-6 border-b border-logo-green/20">
               <div className="flex justify-between items-center">
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 bg-logo-green rounded-full flex items-center justify-center">
