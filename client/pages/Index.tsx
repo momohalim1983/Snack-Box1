@@ -150,6 +150,32 @@ export default function Index() {
 
   return (
     <div className="min-h-screen bg-blue-50">
+      {/* Header Navigation */}
+      <header className="bg-white/95 backdrop-blur-sm border-b border-gray-200/50 sticky top-0 z-40">
+        <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+          <div className="flex items-center gap-3">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2F79b7dfd5cb0f4ca0b96e836c27c6ef40%2Fcd932fcd18414ba798762d622c2b825c?format=webp&width=800"
+              alt="Nut Cravings Logo"
+              className="h-12 w-auto"
+            />
+            <div className="text-2xl font-bold text-heading-red">Nut Cravings</div>
+          </div>
+          <nav className="hidden md:flex items-center gap-8">
+            <a href="#" className="text-gray-700 hover:text-heading-red transition-colors font-medium">Home</a>
+            <a href="#products-section" className="text-gray-700 hover:text-heading-red transition-colors font-medium">Products</a>
+            <a href="#" className="text-gray-700 hover:text-heading-red transition-colors font-medium">About</a>
+            <button
+              onClick={scrollToProducts}
+              className="bg-logo-green hover:bg-green-500 text-white font-semibold px-6 py-2 rounded-full transition-all duration-300 flex items-center gap-2"
+            >
+              <ShoppingCart className="w-4 h-4" />
+              Shop Now
+            </button>
+          </nav>
+        </div>
+      </header>
+
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-gradient-to-br from-blue-100 via-white to-blue-50 py-24 px-4 sm:py-40">
         <div className="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent"></div>
