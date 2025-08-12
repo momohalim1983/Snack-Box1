@@ -447,7 +447,7 @@ export default function Index() {
         <div className="max-w-7xl mx-auto">
           {/* Fast Shipping */}
           <div className="text-center mb-12">
-            <div className="inline-flex items-center gap-4 bg-snack-green/10 text-snack-green px-8 py-4 rounded-2xl">
+            <div className="inline-flex items-center gap-4 bg-logo-green/10 text-logo-green px-8 py-4 rounded-2xl">
               <Truck className="w-8 h-8" />
               <span className="text-lg font-semibold">
                 Fast & Guaranteed Shipping Across the United States
