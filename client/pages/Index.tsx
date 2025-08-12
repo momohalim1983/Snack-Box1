@@ -178,7 +178,7 @@ export default function Index() {
                 <span className="block text-snack-dark-blue">
                   Perfect Gift for
                 </span>
-                <span className="block bg-gradient-to-r from-snack-green to-green-600 bg-clip-text text-transparent">
+                <span className="block bg-gradient-to-r from-logo-green to-green-500 bg-clip-text text-transparent">
                   Snack Lovers
                 </span>
               </h1>
