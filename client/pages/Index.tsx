@@ -162,7 +162,7 @@ export default function Index() {
                 Premium Quality Guaranteed
               </div>
 
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-snack-red mb-6 leading-tight">
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black text-heading-red mb-6 leading-tight tracking-tight">
                 Snack Box
                 <span className="block text-snack-dark-blue">
                   Perfect Gift for
@@ -226,7 +226,7 @@ export default function Index() {
       <section className="py-20 px-4 bg-gradient-to-b from-blue-50 to-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-snack-red mb-4">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-heading-red mb-4 tracking-tight">
               Why Choose Snack Box?
             </h2>
             <p className="text-lg text-snack-dark-blue/70 max-w-2xl mx-auto">
@@ -266,7 +266,7 @@ export default function Index() {
       >
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-snack-red mb-4">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-heading-red mb-4 tracking-tight">
               Choose Your Perfect Box Size
             </h2>
             <p className="text-lg text-snack-dark-blue/70 max-w-2xl mx-auto">
@@ -343,7 +343,7 @@ export default function Index() {
 
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="text-center mb-16 relative z-10">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 tracking-tight">
               Watch Snack Box on TikTok
             </h2>
             <p className="text-lg text-gray-300 max-w-2xl mx-auto">
@@ -370,7 +370,7 @@ export default function Index() {
         <div className="absolute inset-0 bg-gradient-to-r from-snack-green/10 to-transparent"></div>
         <div className="max-w-5xl mx-auto text-center relative z-10">
           <div className="card-enhanced p-12 bg-white/80 backdrop-blur-sm">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-snack-red mb-6">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-heading-red mb-6 tracking-tight">
               Ready to Experience the Tastiest Snack Box?
             </h2>
             <p className="text-xl text-snack-dark-blue/80 mb-8 max-w-3xl mx-auto leading-relaxed">
