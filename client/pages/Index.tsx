@@ -556,7 +556,7 @@ export default function Index() {
                 href={products[0].walmartLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-snack-green hover:bg-green-600 text-white px-8 py-3 rounded-2xl transition-colors duration-200 text-lg font-semibold button-enhanced"
+                className="inline-block bg-logo-green hover:bg-green-500 text-white px-8 py-3 rounded-2xl transition-colors duration-200 text-lg font-semibold button-enhanced"
               >
                 Order from Walmart
               </a>
@@ -575,7 +575,7 @@ export default function Index() {
       {showFloatingButton && (
         <button
           onClick={openFirstProductModal}
-          className="fixed bottom-6 right-6 bg-snack-green hover:bg-green-600 text-white font-bold px-6 py-4 rounded-2xl shadow-2xl z-50 transition-all duration-200 transform hover:scale-105 button-enhanced flex items-center gap-2"
+          className="fixed bottom-6 right-6 bg-logo-green hover:bg-green-500 text-white font-bold px-6 py-4 rounded-2xl shadow-2xl z-50 transition-all duration-200 transform hover:scale-105 button-enhanced flex items-center gap-2"
         >
           <ShoppingCart className="w-5 h-5" />
           <span className="hidden sm:inline">Buy Now</span>
@@ -591,7 +591,7 @@ export default function Index() {
             <div className="bg-gradient-to-r from-snack-green/5 to-snack-green/10 p-6 border-b border-snack-green/20">
               <div className="flex justify-between items-center">
                 <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 bg-snack-green rounded-full flex items-center justify-center">
+                  <div className="w-10 h-10 bg-logo-green rounded-full flex items-center justify-center">
                     <Package className="w-5 h-5 text-white" />
                   </div>
                   <h3 className="text-2xl font-bold text-heading-red">
@@ -631,7 +631,7 @@ export default function Index() {
                       <span className="text-4xl font-bold text-snack-red">
                         {selectedProduct.price}
                       </span>
-                      <span className="bg-snack-green text-white font-bold px-4 py-2 rounded-full text-lg">
+                      <span className="bg-logo-green text-white font-bold px-4 py-2 rounded-full text-lg">
                         {selectedProduct.size}
                       </span>
                     </div>
@@ -674,7 +674,7 @@ export default function Index() {
                     href={selectedProduct.walmartLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="block w-full bg-gradient-to-r from-snack-green to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold py-5 text-center rounded-2xl text-xl transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center justify-center gap-3"
+                    className="block w-full bg-gradient-to-r from-logo-green to-green-500 hover:from-green-500 hover:to-green-600 text-white font-bold py-5 text-center rounded-2xl text-xl transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center justify-center gap-3"
                   >
                     <ShoppingCart className="w-6 h-6" />
                     Buy Now on Walmart
