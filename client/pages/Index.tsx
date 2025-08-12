@@ -455,7 +455,7 @@ export default function Index() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
             {/* Quick Links */}
             <div>
-              <h3 className="text-xl font-semibold mb-6">Quick Links</h3>
+              <h3 className="text-xl font-semibold mb-6 text-heading-red">Quick Links</h3>
               <ul className="space-y-3">
                 <li>
                   <a
@@ -494,7 +494,7 @@ export default function Index() {
 
             {/* Social Media */}
             <div>
-              <h3 className="text-xl font-semibold mb-6">Follow Us</h3>
+              <h3 className="text-xl font-semibold mb-6 text-heading-red">Follow Us</h3>
               <div className="flex gap-6">
                 <a
                   href="https://tiktok.com/@nut.cravings"
@@ -525,7 +525,7 @@ export default function Index() {
 
             {/* Walmart Link */}
             <div>
-              <h3 className="text-xl font-semibold mb-6">Order Now</h3>
+              <h3 className="text-xl font-semibold mb-6 text-heading-red">Order Now</h3>
               <a
                 href={products[0].walmartLink}
                 target="_blank"
