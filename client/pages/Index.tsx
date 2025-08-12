@@ -586,7 +586,7 @@ export default function Index() {
       {/* Enhanced Product Modal */}
       {selectedProduct && (
         <div className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center p-4 z-50 fade-in">
-          <div className="bg-white rounded-3xl max-w-4xl w-full max-h-[95vh] overflow-hidden shadow-2xl slide-up border border-snack-green/20">
+          <div className="bg-white rounded-3xl max-w-4xl w-full max-h-[95vh] overflow-hidden shadow-2xl slide-up border border-logo-green/20">
             {/* Modal Header */}
             <div className="bg-gradient-to-r from-snack-green/5 to-snack-green/10 p-6 border-b border-snack-green/20">
               <div className="flex justify-between items-center">
