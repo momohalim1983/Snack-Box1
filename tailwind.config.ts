@@ -65,6 +65,9 @@ export default {
         "snack-dark-blue": "#1D3557",
         "snack-light-gray": "#F8F9FA",
         "snack-gold": "#FFD166",
+        // New improved colors
+        "heading-red": "#D73547",
+        "logo-green": "#9BD95B",
       },
       borderRadius: {
         lg: "var(--radius)",
