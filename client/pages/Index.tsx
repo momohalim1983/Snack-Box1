@@ -639,28 +639,28 @@ export default function Index() {
                 </div>
 
                 {/* Product Info */}
-                <div className="space-y-6">
+                <div className="space-y-4 sm:space-y-6">
                   <div>
-                    <h4 className="text-3xl font-bold text-heading-red mb-4 leading-tight">
+                    <h4 className="text-xl sm:text-2xl lg:text-3xl font-bold text-heading-red mb-3 sm:mb-4 leading-tight">
                       {selectedProduct.name}
                     </h4>
 
-                    <div className="flex items-center gap-4 mb-6">
-                      <span className="text-4xl font-bold text-snack-red">
+                    <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-4 mb-4 sm:mb-6">
+                      <span className="text-2xl sm:text-3xl lg:text-4xl font-bold text-heading-red">
                         {selectedProduct.price}
                       </span>
-                      <span className="bg-logo-green text-white font-bold px-4 py-2 rounded-full text-lg">
+                      <span className="bg-logo-green text-white font-bold px-3 py-1 sm:px-4 sm:py-2 rounded-full text-sm sm:text-base lg:text-lg">
                         {selectedProduct.size}
                       </span>
                     </div>
                   </div>
 
-                  <div className="bg-snack-light-gray/50 p-6 rounded-2xl">
-                    <h5 className="font-semibold text-heading-red mb-3 flex items-center gap-2">
+                  <div className="bg-snack-light-gray/50 p-4 sm:p-6 rounded-xl sm:rounded-2xl">
+                    <h5 className="font-semibold text-heading-red mb-2 sm:mb-3 flex items-center gap-2 text-sm sm:text-base">
                       <Sparkles className="w-5 h-5 text-logo-green" />
                       Product Description
                     </h5>
-                    <p className="text-gray-700 leading-relaxed text-lg">
+                    <p className="text-gray-700 leading-relaxed text-sm sm:text-base lg:text-lg">
                       {selectedProduct.description}
                     </p>
                   </div>
