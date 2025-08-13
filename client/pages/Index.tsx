@@ -358,13 +358,10 @@ export default function Index() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            {tiktokVideos.map((video, index) => (
-              <EnhancedTikTokCard
+            {tiktokEmbeds.map((embedCode, index) => (
+              <TikTokEmbed
                 key={index}
-                videoId={video.videoId}
-                cite={video.cite}
-                thumbnailUrl={video.thumbnailUrl}
-                title={video.title}
+                embedCode={embedCode}
               />
             ))}
           </div>
