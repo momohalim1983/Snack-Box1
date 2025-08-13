@@ -217,15 +217,15 @@ export default function Index() {
               {/* Trust Indicators */}
               <div className="flex items-center justify-center lg:justify-start gap-6 text-sm text-snack-dark-blue/60">
                 <div className="flex items-center gap-2">
-                  <CheckCircle className="w-4 h-4 text-snack-green" />
+                  <CheckCircle className="w-4 h-4 text-logo-green" />
                   30+ Snack Varieties
                 </div>
                 <div className="flex items-center gap-2">
-                  <CheckCircle className="w-4 h-4 text-snack-green" />
+                  <CheckCircle className="w-4 h-4 text-logo-green" />
                   Fast Shipping
                 </div>
                 <div className="flex items-center gap-2">
-                  <CheckCircle className="w-4 h-4 text-snack-green" />
+                  <CheckCircle className="w-4 h-4 text-logo-green" />
                   Gift Ready
                 </div>
               </div>
@@ -423,19 +423,19 @@ export default function Index() {
             {/* Trust Indicators */}
             <div className="flex flex-wrap items-center justify-center gap-8 text-sm text-snack-dark-blue/60">
               <div className="flex items-center gap-2">
-                <CheckCircle className="w-5 h-5 text-snack-green" />
+                <CheckCircle className="w-5 h-5 text-logo-green" />
                 30+ Premium Snacks
               </div>
               <div className="flex items-center gap-2">
-                <CheckCircle className="w-5 h-5 text-snack-green" />
+                <CheckCircle className="w-5 h-5 text-logo-green" />
                 Gift-Ready Packaging
               </div>
               <div className="flex items-center gap-2">
-                <CheckCircle className="w-5 h-5 text-snack-green" />
+                <CheckCircle className="w-5 h-5 text-logo-green" />
                 Fast US Shipping
               </div>
               <div className="flex items-center gap-2">
-                <CheckCircle className="w-5 h-5 text-snack-green" />
+                <CheckCircle className="w-5 h-5 text-logo-green" />
                 Satisfaction Guaranteed
               </div>
             </div>
@@ -489,7 +489,7 @@ export default function Index() {
                 <li>
                   <a
                     href="#"
-                    className="hover:text-snack-green transition-colors text-lg"
+                    className="hover:text-logo-green transition-colors text-lg"
                   >
                     Home
                   </a>
@@ -497,7 +497,7 @@ export default function Index() {
                 <li>
                   <a
                     href="#products-section"
-                    className="hover:text-snack-green transition-colors text-lg"
+                    className="hover:text-logo-green transition-colors text-lg"
                   >
                     Products
                   </a>
@@ -505,7 +505,7 @@ export default function Index() {
                 <li>
                   <a
                     href="#"
-                    className="hover:text-snack-green transition-colors text-lg"
+                    className="hover:text-logo-green transition-colors text-lg"
                   >
                     Testimonials
                   </a>
@@ -513,7 +513,7 @@ export default function Index() {
                 <li>
                   <a
                     href="#"
-                    className="hover:text-snack-green transition-colors text-lg"
+                    className="hover:text-logo-green transition-colors text-lg"
                   >
                     Contact Us
                   </a>
@@ -531,7 +531,7 @@ export default function Index() {
                   href="https://tiktok.com/@nut.cravings"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-snack-green transition-colors text-lg"
+                  className="hover:text-logo-green transition-colors text-lg"
                 >
                   TikTok
                 </a>
@@ -539,7 +539,7 @@ export default function Index() {
                   href="#"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-snack-green transition-colors text-lg"
+                  className="hover:text-logo-green transition-colors text-lg"
                 >
                   Instagram
                 </a>
@@ -547,7 +547,7 @@ export default function Index() {
                   href="#"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-snack-green transition-colors text-lg"
+                  className="hover:text-logo-green transition-colors text-lg"
                 >
                   Facebook
                 </a>
@@ -673,15 +673,15 @@ export default function Index() {
                     </h5>
                     <div className="grid grid-cols-1 gap-2 text-sm text-gray-600">
                       <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-snack-green" />
+                        <CheckCircle className="w-4 h-4 text-logo-green" />
                         Premium variety of snacks
                       </div>
                       <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-snack-green" />
+                        <CheckCircle className="w-4 h-4 text-logo-green" />
                         Beautiful gift packaging
                       </div>
                       <div className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-snack-green" />
+                        <CheckCircle className="w-4 h-4 text-logo-green" />
                         Greeting card included
                       </div>
                     </div>
