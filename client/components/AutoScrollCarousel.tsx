@@ -49,7 +49,7 @@ const AutoScrollCarousel = () => {
             {duplicatedImages.map((image, index) => (
               <div
                 key={`${image.id}-${index}`}
-                className="flex-shrink-0 w-96 mx-4"
+                className="flex-shrink-0 w-72 sm:w-80 lg:w-96 mx-2 sm:mx-4"
               >
                 <img
                   src={image.src}
