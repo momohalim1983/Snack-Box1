@@ -12,7 +12,6 @@ import {
   CheckCircle,
 } from "lucide-react";
 import TestimonialsCarousel from "../components/TestimonialsCarousel";
-import TikTokVideo from "../components/TikTokVideo";
 import AutoScrollCarousel from "../components/AutoScrollCarousel";
 
 const products = [
