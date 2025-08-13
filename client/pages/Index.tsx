@@ -677,7 +677,7 @@ export default function Index() {
                     href={selectedProduct.walmartLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="block w-full bg-gradient-to-r from-logo-green to-green-500 hover:from-green-500 hover:to-green-600 text-white font-bold py-5 text-center rounded-2xl text-xl transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center justify-center gap-3"
+                    className="block w-full bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-bold py-5 text-center rounded-2xl text-xl transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center justify-center gap-3"
                   >
                     <ShoppingCart className="w-6 h-6" />
                     Buy Now on Walmart
