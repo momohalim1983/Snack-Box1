@@ -13,6 +13,7 @@ import {
 } from "lucide-react";
 import TestimonialsCarousel from "../components/TestimonialsCarousel";
 import EnhancedTikTokCard from "../components/EnhancedTikTokCard";
+import AutoScrollCarousel from "../components/AutoScrollCarousel";
 
 const products = [
   {
