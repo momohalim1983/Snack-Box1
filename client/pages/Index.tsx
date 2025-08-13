@@ -311,7 +311,7 @@ export default function Index() {
                     className="w-full h-full object-cover image-hover"
                   />
                   {index === 1 && (
-                    <div className="absolute top-4 right-4 bg-snack-green text-white px-3 py-1 rounded-full text-sm font-bold">
+                    <div className="absolute top-3 right-3 bg-logo-green text-white px-2 py-1 rounded-full text-xs font-bold">
                       Popular
                     </div>
                   )}
