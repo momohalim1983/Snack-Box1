@@ -93,26 +93,6 @@ const features = [
   },
 ];
 
-const tiktokVideos = [
-  {
-    videoId: "7520248009863580983",
-    url: "https://www.tiktok.com/@nut.cravings/video/7520248009863580983",
-    title: "Gift A Snack - Perfect Care Package for Everyone! 🎁",
-    description: "Check out our amazing variety of snacks perfect for gifting!"
-  },
-  {
-    videoId: "7522097145223187725",
-    url: "https://www.tiktok.com/@nut.cravings/video/7522097145223187725",
-    title: "Unboxing the Ultimate Snack Collection! 🍿✨",
-    description: "Perfect for movie nights and sharing with friends"
-  },
-  {
-    videoId: "7521731881373682958",
-    url: "https://www.tiktok.com/@nut.cravings/video/7521731881373682958",
-    title: "These Snack Boxes are Game Changers! 🎮",
-    description: "Every bite is pure happiness and flavor explosion"
-  }
-];
 
 export default function Index() {
   const [selectedProduct, setSelectedProduct] = useState<
