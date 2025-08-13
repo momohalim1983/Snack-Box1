@@ -65,6 +65,9 @@ export default {
         "snack-dark-blue": "#1D3557",
         "snack-light-gray": "#F8F9FA",
         "snack-gold": "#FFD166",
+        // New improved colors
+        "heading-red": "#D73547",
+        "logo-green": "#9BD95B",
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -92,6 +95,7 @@ export default {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "scroll-carousel": "scrollCarousel 20s linear infinite",
       },
     },
   },

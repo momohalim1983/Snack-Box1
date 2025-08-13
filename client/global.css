@@ -1,5 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -105,7 +106,9 @@
 
   body {
     @apply bg-background text-foreground;
-    font-family: "Inter", sans-serif;
+    font-family: "Roboto", "Inter", sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
   }
 
   h1,
@@ -115,6 +118,14 @@
   h5,
   h6 {
     font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #d73547;
+    letter-spacing: -0.025em;
+  }
+
+  p {
+    font-family: "Roboto", "Inter", sans-serif;
+    line-height: 1.7;
   }
 }
 
@@ -226,5 +237,14 @@
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes scrollCarousel {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
   }
 }
