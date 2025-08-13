@@ -121,6 +121,17 @@ export default function Index() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  // Initialize TikTok embeds
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      if ((window as any).tiktokEmbed?.lib?.render) {
+        (window as any).tiktokEmbed.lib.render();
+      }
+    }, 1000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   const StarRating = ({ rating }: { rating: number }) => {
     return (
       <div className="flex gap-1">
