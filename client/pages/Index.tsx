@@ -98,7 +98,7 @@ const tiktokVideos = [
     cite: "https://www.tiktok.com/@nut.cravings/video/7522097145223187725",
     videoId: "7522097145223187725",
     thumbnailUrl:
-      "https://cdn.builder.io/api/v1/image/assets%2F2a4ccbf52787410695b14bc7915942ad%2F01df94caec3b475eb90195912ce18150?format=webp&width=800",
+      "https://cdn.builder.io/api/v1/image/assets%2F79b7dfd5cb0f4ca0b96e836c27c6ef40%2Fed6f0608dea8431184361504006db1f7?format=webp&width=800",
     title:
       "Unboxing the ultimate snack collection! 🍿✨ Perfect for movie nights and sharing with friends.",
   },
@@ -106,7 +106,7 @@ const tiktokVideos = [
     cite: "https://www.tiktok.com/@nut.cravings/video/7521731881373682958",
     videoId: "7521731881373682958",
     thumbnailUrl:
-      "https://cdn.builder.io/api/v1/image/assets%2F2a4ccbf52787410695b14bc7915942ad%2F5b6f01b20a9c45ee9e186e38e0429b04?format=webp&width=800",
+      "https://cdn.builder.io/api/v1/image/assets%2F79b7dfd5cb0f4ca0b96e836c27c6ef40%2F6aa15c8bacc441ad9ad4f89417634b58?format=webp&width=800",
     title:
       "These snack boxes are a game changer! 🎮 Every bite is pure happiness and flavor explosion.",
   },
@@ -114,7 +114,7 @@ const tiktokVideos = [
     cite: "https://www.tiktok.com/@nut.cravings/video/7517286609797025054",
     videoId: "7517286609797025054",
     thumbnailUrl:
-      "https://cdn.builder.io/api/v1/image/assets%2F2a4ccbf52787410695b14bc7915942ad%2Fe42505037564466d8d5406ffc985bee0?format=webp&width=800",
+      "https://cdn.builder.io/api/v1/image/assets%2F79b7dfd5cb0f4ca0b96e836c27c6ef40%2F53a1c8bfa43946a4b0f6b707622c3365?format=webp&width=800",
     title:
       "Rating different snacks from our latest box! 🌟 Some surprising favorites and new discoveries.",
   },
