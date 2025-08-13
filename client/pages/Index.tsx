@@ -336,7 +336,7 @@ export default function Index() {
                     onClick={() => setSelectedProduct(product)}
                     className="w-full bg-logo-green hover:bg-green-500 text-white font-bold py-2 rounded-xl text-sm flex items-center justify-center gap-1"
                   >
-                    <Package className="w-5 h-5" />
+                    <Package className="w-4 h-4" />
                     Open Your Box
                   </button>
                 </div>
