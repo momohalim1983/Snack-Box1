@@ -4,27 +4,27 @@ const AutoScrollCarousel = () => {
   const bannerImages = [
     {
       id: 1,
-      src: "https://cdn.builder.io/api/v1/image/assets%2F79b7dfd5cb0f4ca0b96e836c27c6ef40%2F2ae7c88bc2e3436e9ba380f2d513d421?format=webp&width=800",
-      alt: "Gift A Snack 35 Count Package"
+      src: "https://cdn.builder.io/api/v1/image/assets%2F79b7dfd5cb0f4ca0b96e836c27c6ef40%2Fcc1ec39d8575411982eb29ccb37b3a32?format=webp&width=800",
+      alt: "Gift A Snack Care Packages Banner 1"
     },
     {
       id: 2,
-      src: "https://cdn.builder.io/api/v1/image/assets%2F79b7dfd5cb0f4ca0b96e836c27c6ef40%2F467035ddbbac4a4fa95ed5c2b4865be0?format=webp&width=800",
+      src: "https://cdn.builder.io/api/v1/image/assets%2F79b7dfd5cb0f4ca0b96e836c27c6ef40%2Fcc1ec39d8575411982eb29ccb37b3a32?format=webp&width=800",
       alt: "Gift A Snack Care Packages Banner 2"
     },
     {
       id: 3,
-      src: "https://cdn.builder.io/api/v1/image/assets%2F79b7dfd5cb0f4ca0b96e836c27c6ef40%2Fda4903eb24f84e80b0293a094107bd3b?format=webp&width=800",
+      src: "https://cdn.builder.io/api/v1/image/assets%2F79b7dfd5cb0f4ca0b96e836c27c6ef40%2Fcc1ec39d8575411982eb29ccb37b3a32?format=webp&width=800",
       alt: "Gift A Snack Care Packages Banner 3"
     },
     {
       id: 4,
-      src: "https://cdn.builder.io/api/v1/image/assets%2F79b7dfd5cb0f4ca0b96e836c27c6ef40%2F0d9904db419345499be8f6de2dd73269?format=webp&width=800",
+      src: "https://cdn.builder.io/api/v1/image/assets%2F79b7dfd5cb0f4ca0b96e836c27c6ef40%2Fcc1ec39d8575411982eb29ccb37b3a32?format=webp&width=800",
       alt: "Gift A Snack Care Packages Banner 4"
     },
     {
       id: 5,
-      src: "https://cdn.builder.io/api/v1/image/assets%2F79b7dfd5cb0f4ca0b96e836c27c6ef40%2Fc4f2c47ef67a4739a6eaf30b37aaec35?format=webp&width=800",
+      src: "https://cdn.builder.io/api/v1/image/assets%2F79b7dfd5cb0f4ca0b96e836c27c6ef40%2Fcc1ec39d8575411982eb29ccb37b3a32?format=webp&width=800",
       alt: "Gift A Snack Care Packages Banner 5"
     }
   ];
