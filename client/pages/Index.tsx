@@ -167,16 +167,16 @@ export default function Index() {
       <section className="relative overflow-hidden bg-gradient-to-br from-blue-100 via-white to-blue-50 py-24 px-4 sm:py-40">
         <div className="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent"></div>
         <div className="max-w-7xl mx-auto relative z-10">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             {/* Content */}
             <div className="text-center lg:text-left fade-in">
               {/* Logo with frame */}
-              <div className="flex justify-center lg:justify-start mb-8">
-                <div className="bg-gray-100 p-6 rounded-2xl shadow-lg inline-block">
+              <div className="flex justify-center lg:justify-start mb-6 sm:mb-8">
+                <div className="bg-gray-100 p-4 sm:p-6 rounded-xl sm:rounded-2xl shadow-lg inline-block">
                   <img
                     src="https://cdn.builder.io/api/v1/image/assets%2F79b7dfd5cb0f4ca0b96e836c27c6ef40%2Fcd932fcd18414ba798762d622c2b825c?format=webp&width=800"
                     alt="Nut Cravings Logo"
-                    className="h-24 w-auto"
+                    className="h-16 sm:h-20 lg:h-24 w-auto"
                   />
                 </div>
               </div>
