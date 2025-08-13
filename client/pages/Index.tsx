@@ -51,6 +51,18 @@ const products = [
     walmartLink:
       "https://goto.walmart.com/c/5610446/565706/9383?veh=aff&sharedid=mp_16964_2016489964_gjxxi_oa60h68_B7E6E4A96EDA37A6A1D11E1083EBED26&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F5915077819%3FselectedSellerId%3D16964%26selectedOfferId%3DB7E6E4A96EDA37A6A1D11E1083EBED26",
   },
+  {
+    id: 4,
+    name: "Gift A Snack Snack Box Care Package - 105 Count",
+    description:
+      "Dive into the ultimate snacking experience with the \"Gift A Snack\" Snack Box Care Package. Our 105-count variety pack brims with a mix of America's favorite candies, chips, crackers, and bars, offering something delicious for every craving. Perfectly packaged in individual servings for on-the-go ease, each box also includes a cheerful greeting card to spread extra joy. Thoughtfully presented in a beautifully branded box, this snack pack makes a fantastic gift for adults, teens, college students, or anyone who deserves a special treat. Note: Some snacks may vary but will always be of equal or greater value.",
+    size: "105 ct",
+    price: "$45.97",
+    image:
+      "https://cdn.builder.io/api/v1/image/assets%2Ffc09862a9f0941d4aeda13a8cb2480bc%2F76e7178c1b7c45408f2a30a4b0e82398?format=webp&width=800", // Placeholder - replace with actual exterior image
+    walmartLink:
+      "#", // Replace with actual Walmart link
+  },
 ];
 
 const features = [
