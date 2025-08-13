@@ -8,41 +8,20 @@ export default function TikTokEmbed({ embedCode }: TikTokEmbedProps) {
   const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    // Load TikTok embed script if it hasn't been loaded yet
-    const loadScript = () => {
-      if (!document.querySelector('script[src="https://www.tiktok.com/embed.js"]')) {
-        const script = document.createElement('script');
-        script.src = 'https://www.tiktok.com/embed.js';
-        script.async = true;
-        document.head.appendChild(script);
-
-        script.onload = () => {
-          // Re-process TikTok embeds after script loads
-          setTimeout(() => {
-            if ((window as any).tiktokEmbed?.lib?.render) {
-              (window as any).tiktokEmbed.lib.render();
-            }
-          }, 500);
-        };
-      } else {
-        // Script already loaded, just trigger render
-        setTimeout(() => {
-          if ((window as any).tiktokEmbed?.lib?.render) {
-            (window as any).tiktokEmbed.lib.render();
-          }
-        }, 100);
+    const timer = setTimeout(() => {
+      // TikTok script is loaded globally, try to render embeds
+      if ((window as any).tiktokEmbed?.lib?.render) {
+        (window as any).tiktokEmbed.lib.render();
       }
-    };
+    }, 1000);
 
-    if (containerRef.current) {
-      loadScript();
-    }
+    return () => clearTimeout(timer);
   }, []);
 
   return (
     <div
       ref={containerRef}
-      className="tiktok-embed-container w-full max-w-[605px] min-w-[325px] mx-auto p-4"
+      className="tiktok-embed-container w-full max-w-[605px] min-w-[325px] mx-auto"
       dangerouslySetInnerHTML={{ __html: embedCode }}
     />
   );
