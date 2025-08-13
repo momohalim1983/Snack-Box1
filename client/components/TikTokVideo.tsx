@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Play, ExternalLink } from 'lucide-react';
+import React, { useState } from "react";
+import { Play, ExternalLink } from "lucide-react";
 
 interface TikTokVideoProps {
   videoId: string;
@@ -8,7 +8,12 @@ interface TikTokVideoProps {
   description: string;
 }
 
-export default function TikTokVideo({ videoId, url, title, description }: TikTokVideoProps) {
+export default function TikTokVideo({
+  videoId,
+  url,
+  title,
+  description,
+}: TikTokVideoProps) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [isLoaded, setIsLoaded] = useState(false);
 
@@ -18,7 +23,7 @@ export default function TikTokVideo({ videoId, url, title, description }: TikTok
   };
 
   const handleVisitTikTok = () => {
-    window.open(url, '_blank', 'noopener,noreferrer');
+    window.open(url, "_blank", "noopener,noreferrer");
   };
 
   return (
@@ -38,7 +43,9 @@ export default function TikTokVideo({ videoId, url, title, description }: TikTok
             {/* Video Info */}
             <div className="text-center text-white space-y-3">
               <h3 className="text-lg font-bold leading-tight">{title}</h3>
-              <p className="text-white/80 text-sm leading-relaxed">{description}</p>
+              <p className="text-white/80 text-sm leading-relaxed">
+                {description}
+              </p>
               <div className="flex items-center justify-center gap-2 text-white/60 text-xs">
                 <span>@nut.cravings</span>
                 <span>•</span>
@@ -69,7 +76,7 @@ export default function TikTokVideo({ videoId, url, title, description }: TikTok
                 onLoad={() => setIsLoaded(true)}
               />
             )}
-            
+
             {/* Loading state */}
             {!isLoaded && (
               <div className="absolute inset-0 bg-black flex items-center justify-center">
@@ -82,7 +89,10 @@ export default function TikTokVideo({ videoId, url, title, description }: TikTok
 
             {/* Close/Back Button */}
             <button
-              onClick={() => {setIsPlaying(false); setIsLoaded(false);}}
+              onClick={() => {
+                setIsPlaying(false);
+                setIsLoaded(false);
+              }}
               className="absolute top-4 right-4 z-20 w-10 h-10 bg-black/60 rounded-full flex items-center justify-center text-white hover:bg-black/80 transition-all duration-200"
             >
               ×
