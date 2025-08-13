@@ -372,11 +372,14 @@ export default function Index() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-8 max-w-6xl mx-auto">
-            {tiktokEmbeds.map((embedCode, index) => (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 max-w-6xl mx-auto">
+            {tiktokVideos.map((video, index) => (
               <div key={index} className="flex justify-center">
-                <TikTokEmbed
-                  embedCode={embedCode}
+                <TikTokVideo
+                  videoId={video.videoId}
+                  url={video.url}
+                  title={video.title}
+                  description={video.description}
                 />
               </div>
             ))}
