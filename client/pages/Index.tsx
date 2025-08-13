@@ -614,7 +614,18 @@ export default function Index() {
               <div className="grid lg:grid-cols-2 gap-8 items-start">
                 {/* Product Image */}
                 <div className="">
-                  <div className="aspect-square overflow-hidden rounded-2xl bg-gradient-to-br from-snack-green/5 to-snack-green/10 p-4">
+                  {/* Spark Icon with Blue Frame */}
+                  <div className="flex justify-center mb-4">
+                    <div className="bg-blue-600 p-3 rounded-xl shadow-lg inline-block">
+                      <img
+                        src="https://cdn.builder.io/api/v1/image/assets%2F79b7dfd5cb0f4ca0b96e836c27c6ef40%2F9eae62feb04c48cb96ee02dd2f9b0679?format=webp&width=800"
+                        alt="Spark Icon"
+                        className="h-8 w-8 filter brightness-0 invert"
+                      />
+                    </div>
+                  </div>
+
+                  <div className="aspect-square overflow-hidden rounded-2xl bg-gradient-to-br from-logo-green/5 to-logo-green/10 p-4">
                     <img
                       src={selectedProduct.image}
                       alt={selectedProduct.name}
