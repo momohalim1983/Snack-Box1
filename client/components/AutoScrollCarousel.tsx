@@ -4,8 +4,8 @@ const AutoScrollCarousel = () => {
   const bannerImages = [
     {
       id: 1,
-      src: "https://cdn.builder.io/api/v1/image/assets%2F79b7dfd5cb0f4ca0b96e836c27c6ef40%2F1047a4e865cb49b8972188fb949b7197?format=webp&width=800",
-      alt: "Gift A Snack Care Packages Banner 1"
+      src: "https://cdn.builder.io/api/v1/image/assets%2F79b7dfd5cb0f4ca0b96e836c27c6ef40%2F2ae7c88bc2e3436e9ba380f2d513d421?format=webp&width=800",
+      alt: "Gift A Snack 35 Count Package"
     },
     {
       id: 2,
@@ -49,12 +49,12 @@ const AutoScrollCarousel = () => {
             {duplicatedImages.map((image, index) => (
               <div
                 key={`${image.id}-${index}`}
-                className="flex-shrink-0 w-80 mx-4"
+                className="flex-shrink-0 w-96 mx-4"
               >
                 <img
                   src={image.src}
                   alt={image.alt}
-                  className="w-full h-48 object-cover rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
+                  className="w-full h-auto object-contain rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
                 />
               </div>
             ))}
