@@ -246,6 +246,9 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Auto-Scrolling Banner Carousel */}
+      <AutoScrollCarousel />
+
       {/* Features & Benefits Section */}
       <section className="py-20 px-4 bg-gradient-to-b from-blue-50 to-white">
         <div className="max-w-7xl mx-auto">
