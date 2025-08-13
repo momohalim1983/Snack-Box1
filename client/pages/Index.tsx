@@ -12,7 +12,7 @@ import {
   CheckCircle,
 } from "lucide-react";
 import TestimonialsCarousel from "../components/TestimonialsCarousel";
-import EnhancedTikTokCard from "../components/EnhancedTikTokCard";
+import TikTokEmbed from "../components/TikTokEmbed";
 import AutoScrollCarousel from "../components/AutoScrollCarousel";
 
 const products = [
