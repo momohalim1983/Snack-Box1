@@ -593,38 +593,38 @@ export default function Index() {
       {/* Enhanced Product Modal */}
       {selectedProduct && (
         <div className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center p-4 z-50 fade-in">
-          <div className="bg-white rounded-3xl max-w-4xl w-full max-h-[95vh] overflow-hidden shadow-2xl slide-up border border-logo-green/20">
+          <div className="bg-white rounded-2xl sm:rounded-3xl max-w-4xl w-full max-h-[95vh] overflow-hidden shadow-2xl slide-up border border-logo-green/20">
             {/* Modal Header */}
-            <div className="bg-gradient-to-r from-logo-green/5 to-logo-green/10 p-6 border-b border-logo-green/20">
+            <div className="bg-gradient-to-r from-logo-green/5 to-logo-green/10 p-4 sm:p-6 border-b border-logo-green/20">
               <div className="flex justify-between items-center">
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 bg-logo-green rounded-full flex items-center justify-center">
                     <Package className="w-5 h-5 text-white" />
                   </div>
-                  <h3 className="text-2xl font-bold text-heading-red">
+                  <h3 className="text-lg sm:text-2xl font-bold text-heading-red">
                     Product Details
                   </h3>
                 </div>
                 <button
                   onClick={() => setSelectedProduct(null)}
-                  className="p-3 hover:bg-red-50 hover:text-red-500 rounded-full transition-all duration-200 group"
+                  className="p-2 sm:p-3 hover:bg-red-50 hover:text-red-500 rounded-full transition-all duration-200 group min-h-[44px] min-w-[44px] flex items-center justify-center"
                 >
                   <X className="w-6 h-6 group-hover:scale-110 transition-transform" />
                 </button>
               </div>
             </div>
 
-            <div className="p-8 overflow-y-auto max-h-[calc(95vh-120px)]">
-              <div className="grid lg:grid-cols-2 gap-8 items-start">
+            <div className="p-4 sm:p-6 md:p-8 overflow-y-auto max-h-[calc(95vh-100px)] sm:max-h-[calc(95vh-120px)]">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6 lg:gap-8 items-start">
                 {/* Product Image */}
                 <div className="">
                   {/* Spark Icon with Blue Frame */}
-                  <div className="flex justify-center mb-4">
+                  <div className="flex justify-center mb-3 sm:mb-4">
                     <div className="bg-blue-600 p-3 rounded-xl shadow-lg inline-block">
                       <img
                         src="https://cdn.builder.io/api/v1/image/assets%2F79b7dfd5cb0f4ca0b96e836c27c6ef40%2F9eae62feb04c48cb96ee02dd2f9b0679?format=webp&width=800"
                         alt="Spark Icon"
-                        className="h-8 w-8 filter brightness-0 invert"
+                        className="h-6 w-6 sm:h-8 sm:w-8 filter brightness-0 invert"
                       />
                     </div>
                   </div>
