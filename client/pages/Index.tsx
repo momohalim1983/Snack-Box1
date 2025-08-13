@@ -318,23 +318,23 @@ export default function Index() {
                 </div>
 
                 <div className="p-4">
-                  <h3 className="text-lg font-bold text-heading-red mb-3 line-clamp-2 group-hover:text-logo-green transition-colors">
+                  <h3 className="text-base font-bold text-heading-red mb-2 line-clamp-2 group-hover:text-logo-green transition-colors">
                     {product.name}
                   </h3>
-                  <p className="text-gray-600 mb-4 line-clamp-3 leading-relaxed text-sm">
+                  <p className="text-gray-600 mb-3 line-clamp-2 leading-relaxed text-xs">
                     {product.description}
                   </p>
-                  <div className="flex justify-between items-center mb-4">
-                    <span className="text-2xl font-bold text-heading-red">
+                  <div className="flex justify-between items-center mb-3">
+                    <span className="text-xl font-bold text-heading-red">
                       {product.price}
                     </span>
-                    <span className="text-sm text-white font-semibold bg-logo-green px-3 py-1 rounded-full">
+                    <span className="text-xs text-white font-semibold bg-logo-green px-2 py-1 rounded-full">
                       {product.size}
                     </span>
                   </div>
                   <button
                     onClick={() => setSelectedProduct(product)}
-                    className="w-full bg-logo-green hover:bg-green-500 text-white font-bold py-3 rounded-2xl button-enhanced text-base flex items-center justify-center gap-2"
+                    className="w-full bg-logo-green hover:bg-green-500 text-white font-bold py-2 rounded-xl text-sm flex items-center justify-center gap-1"
                   >
                     <Package className="w-5 h-5" />
                     Open Your Box
