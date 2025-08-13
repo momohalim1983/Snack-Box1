@@ -317,7 +317,7 @@ export default function Index() {
                   )}
                 </div>
 
-                <div className="p-6">
+                <div className="p-4">
                   <h3 className="text-lg font-bold text-heading-red mb-3 line-clamp-2 group-hover:text-logo-green transition-colors">
                     {product.name}
                   </h3>
