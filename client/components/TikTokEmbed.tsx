@@ -8,49 +8,42 @@ export default function TikTokEmbed({ embedCode }: TikTokEmbedProps) {
   const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    let script: HTMLScriptElement | null = null;
-
-    const loadTikTokScript = () => {
-      // Check if TikTok script is already loaded
+    // Load TikTok embed script if it hasn't been loaded yet
+    const loadScript = () => {
       if (!document.querySelector('script[src="https://www.tiktok.com/embed.js"]')) {
-        script = document.createElement('script');
+        const script = document.createElement('script');
         script.src = 'https://www.tiktok.com/embed.js';
         script.async = true;
-        script.onload = () => {
-          // Initialize TikTok embeds after script loads
-          if ((window as any).tiktokEmbed && containerRef.current) {
-            (window as any).tiktokEmbed.lib.render(containerRef.current);
-          }
-        };
         document.head.appendChild(script);
+
+        script.onload = () => {
+          // Re-process TikTok embeds after script loads
+          setTimeout(() => {
+            if ((window as any).tiktokEmbed?.lib?.render) {
+              (window as any).tiktokEmbed.lib.render();
+            }
+          }, 500);
+        };
       } else {
-        // Script already exists, try to initialize
+        // Script already loaded, just trigger render
         setTimeout(() => {
-          if ((window as any).tiktokEmbed && containerRef.current) {
-            (window as any).tiktokEmbed.lib.render(containerRef.current);
+          if ((window as any).tiktokEmbed?.lib?.render) {
+            (window as any).tiktokEmbed.lib.render();
           }
         }, 100);
       }
     };
 
-    // Set the innerHTML and then load/initialize the script
     if (containerRef.current) {
-      containerRef.current.innerHTML = embedCode;
-      loadTikTokScript();
+      loadScript();
     }
-
-    return () => {
-      // Cleanup if needed
-      if (script && script.parentNode) {
-        script.parentNode.removeChild(script);
-      }
-    };
-  }, [embedCode]);
+  }, []);
 
   return (
     <div
       ref={containerRef}
-      className="tiktok-embed-container w-full max-w-[605px] min-w-[325px] mx-auto"
+      className="tiktok-embed-container w-full max-w-[605px] min-w-[325px] mx-auto p-4"
+      dangerouslySetInnerHTML={{ __html: embedCode }}
     />
   );
 }
