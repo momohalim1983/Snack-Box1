@@ -186,7 +186,7 @@ export default function Index() {
                 Premium Quality Guaranteed
               </div>
 
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black text-heading-red mb-6 leading-tight tracking-tight">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black text-heading-red mb-6 leading-tight tracking-tight">
                 Snack Box
                 <span className="block text-snack-dark-blue">
                   Perfect Gift for
@@ -196,20 +196,20 @@ export default function Index() {
                 </span>
               </h1>
 
-              <p className="text-lg sm:text-xl text-snack-dark-blue/80 mb-8 max-w-xl mx-auto lg:mx-0 leading-relaxed">
+              <p className="text-base sm:text-lg md:text-xl text-snack-dark-blue/80 mb-6 sm:mb-8 max-w-xl mx-auto lg:mx-0 leading-relaxed">
                 Premium assortment of delicious snacks, beautifully packaged.
                 Perfect for gifts, office treats, and special occasions.
               </p>
 
-              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
+              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start mb-6 sm:mb-8">
                 <button
                   onClick={scrollToProducts}
-                  className="bg-snack-green hover:bg-green-600 text-white font-bold px-8 py-4 rounded-2xl text-lg button-enhanced flex items-center justify-center gap-2"
+                  className="bg-logo-green hover:bg-green-500 text-white font-bold px-6 sm:px-8 py-3 sm:py-4 rounded-2xl text-base sm:text-lg button-enhanced flex items-center justify-center gap-2 min-h-[48px]"
                 >
                   <Package className="w-5 h-5" />
                   Shop Now
                 </button>
-                <button className="border-2 border-snack-green text-snack-green hover:bg-snack-green hover:text-white font-bold px-8 py-4 rounded-2xl text-lg transition-all duration-300">
+                <button className="border-2 border-logo-green text-logo-green hover:bg-logo-green hover:text-white font-bold px-6 sm:px-8 py-3 sm:py-4 rounded-2xl text-base sm:text-lg transition-all duration-300 min-h-[48px]">
                   Learn More
                 </button>
               </div>
