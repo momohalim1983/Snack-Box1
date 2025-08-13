@@ -234,7 +234,7 @@ export default function Index() {
             {/* Hero Image */}
             <div className="slide-up">
               <div className="relative">
-                <div className="absolute inset-0 bg-gradient-to-r from-snack-green/20 to-green-400/20 rounded-2xl transform rotate-6"></div>
+                <div className="absolute inset-0 bg-gradient-to-r from-logo-green/20 to-green-400/20 rounded-2xl transform rotate-6"></div>
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2Ffc09862a9f0941d4aeda13a8cb2480bc%2F9a927196010f464595d03440e3666d58?format=webp&width=800"
                   alt="Snack Box Collection"
@@ -394,7 +394,7 @@ export default function Index() {
 
       {/* Final Call-to-Action Section */}
       <section className="py-24 px-4 bg-gradient-to-br from-blue-100 via-blue-50 to-white relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-snack-green/10 to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-logo-green/10 to-transparent"></div>
         <div className="max-w-5xl mx-auto text-center relative z-10">
           <div className="card-enhanced p-12 bg-white/80 backdrop-blur-sm">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-heading-red mb-6 tracking-tight">
