@@ -23,7 +23,7 @@ const products = [
     size: "35 ct",
     price: "$22.97",
     image:
-      "https://cdn.builder.io/api/v1/image/assets%2Ffc09862a9f0941d4aeda13a8cb2480bc%2F76e7178c1b7c45408f2a30a4b0e82398?format=webp&width=800",
+      "https://cdn.builder.io/api/v1/image/assets%2F79b7dfd5cb0f4ca0b96e836c27c6ef40%2Fb52fadd202124e15bfd925b97d1d2bb0?format=webp&width=800",
     walmartLink:
       "https://goto.walmart.com/c/5610446/565706/9383?veh=aff&sharedid=mp_16964_2016489964_q6f5b_h7ap1ka_A0FC4ECE545F34A0AC91A1F0010E9041&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F5298521902%3FselectedSellerId%3D16964%26selectedOfferId%3DA0FC4ECE545F34A0AC91A1F0010E9041",
   },
@@ -35,7 +35,7 @@ const products = [
     size: "42 ct",
     price: "$23.96",
     image:
-      "https://cdn.builder.io/api/v1/image/assets%2Ffc09862a9f0941d4aeda13a8cb2480bc%2F33bc0d42cb3a44dcae9b83d1dbaba20d?format=webp&width=800",
+      "https://cdn.builder.io/api/v1/image/assets%2F79b7dfd5cb0f4ca0b96e836c27c6ef40%2Fcd06d6ab52e341e2b57efd6b128aeeaa?format=webp&width=800",
     walmartLink:
       "https://goto.walmart.com/c/5610446/565706/9383?veh=aff&sharedid=mp_16964_2016489964_ai3se_ims37kq_ACF1D44511903907A6802D948A4EFE22&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F6277108895%3FselectedSellerId%3D16964%26selectedOfferId%3DACF1D44511903907A6802D948A4EFE22",
   },
@@ -47,7 +47,7 @@ const products = [
     size: "52 ct",
     price: "$31.46",
     image:
-      "https://cdn.builder.io/api/v1/image/assets%2Ffc09862a9f0941d4aeda13a8cb2480bc%2Fd638853bf5cf4db3a185ce3a305f2a54?format=webp&width=800",
+      "https://cdn.builder.io/api/v1/image/assets%2F79b7dfd5cb0f4ca0b96e836c27c6ef40%2F5ff73d8278224c2ab0b862f059e3802c?format=webp&width=800",
     walmartLink:
       "https://goto.walmart.com/c/5610446/565706/9383?veh=aff&sharedid=mp_16964_2016489964_gjxxi_oa60h68_B7E6E4A96EDA37A6A1D11E1083EBED26&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F5915077819%3FselectedSellerId%3D16964%26selectedOfferId%3DB7E6E4A96EDA37A6A1D11E1083EBED26",
   },
@@ -59,7 +59,7 @@ const products = [
     size: "105 ct",
     price: "$45.97",
     image:
-      "https://cdn.builder.io/api/v1/image/assets%2Ffc09862a9f0941d4aeda13a8cb2480bc%2F76e7178c1b7c45408f2a30a4b0e82398?format=webp&width=800", // Placeholder - replace with actual exterior image
+      "https://cdn.builder.io/api/v1/image/assets%2F79b7dfd5cb0f4ca0b96e836c27c6ef40%2F936b74c9566f406ebebd96074d052d09?format=webp&width=800",
     walmartLink:
       "#", // Replace with actual Walmart link
   },
